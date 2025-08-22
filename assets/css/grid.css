@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/header-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.header-logo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.side-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.logo-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
