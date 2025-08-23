@@ -7,3 +7,21 @@
     direction: rtl;
     text-align: right;
 }
+
+@media (min-width: 992px) {
+    .dropdown-hover:hover > .dropdown-menu {
+      display: block;
+      margin-top: 0;
+    }
+    .dropdown-submenu:hover > .dropdown-menu {
+      display: block;
+    }
+  }
+  .dropdown-submenu {
+    position: relative;
+  }
+  .dropdown-submenu > .dropdown-menu {
+    top: 0;
+    right: 100%;
+    margin-top: -0.25rem;
+  }
