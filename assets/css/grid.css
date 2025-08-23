@@ -115,9 +115,18 @@ a{
 
 .drop-btn:hover{
   color: #0d6efd;
-  /* CLEAR BOOTSTRAP CSS HOVER */
 }
 
 .special{
   margin-right: 220px;
+}
+
+.slider{
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.slide{
+  border-radius: 20px;
 }
