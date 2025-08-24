@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     background-image:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../images/header-banner.jpg);
     background-size: cover;
     background-position: center;
@@ -55,6 +55,7 @@ a{
 .header-banner-title-h{
   text-align: center;
   color: #ffffff;
+  font-weight: 600;
 }
 
 .header-banner-search{
@@ -70,6 +71,7 @@ a{
   outline: none;
   border: none;
   padding: 30px;
+  box-shadow: 0px 0px 10px #fff;
 }
 
 .header-banner-search i {
@@ -137,6 +139,14 @@ a{
 
 .last-cource{
   color: #ffffff;
+  order: 2;
+}
+
+.line {
+  width: 80px;
+  height: 4px;
+  background-color: #007BFF;
+  order: 1;
 }
 
 .card-txt{
