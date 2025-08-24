@@ -138,3 +138,19 @@ a{
 .last-cource{
   color: #ffffff;
 }
+
+.card-txt{
+  font-weight: 250;
+}
+
+.cart-img{
+  box-sizing: border-box;
+}
+
+.box{
+    margin-bottom: 20px;
+}
+
+.card-footer-txt{
+  color: #7DC954;
+}
