@@ -187,4 +187,62 @@ a{
   background-image: url(../images/background2.jpg);
   background-size: cover;
   background-position: center;
+  padding-top: 80px;
 }
+
+.newsletter {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      background: #333;
+      border-radius: 6px;
+      overflow: hidden;
+      max-width: 800px;
+      margin-right: 50px;
+    }
+
+    .newsletter input {
+      flex: 1;
+      border: none;
+      padding: 12px 40px 12px 12px;
+      background: #444;
+      color: #fff;
+      font-size: 14px;
+    }
+
+    .newsletter input::placeholder {
+      color: #bbb;
+    }
+
+    .newsletter button {
+      background: #4CAF50;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    .newsletter button:hover {
+      background: #45a049;
+    }
+
+    .input-wrapper {
+      position: relative;
+      flex: 1;
+    }
+
+    .input-wrapper i {
+      position: absolute;
+      top: 50%;
+      right: 12px;
+      transform: translateY(-50%);
+      color: #ccc;
+    }
+
+    .input-wrapper input {
+      width: 100%;
+      padding-right: 35px;
+    }
