@@ -301,3 +301,12 @@ a{
   font-size: 10px;
   margin-right: 5px;
 }
+
+.copyright{
+  background-color: #181A1B;
+  height: 60px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
