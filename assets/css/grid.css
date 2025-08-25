@@ -169,3 +169,11 @@ a{
   margin-right: 110px;
   margin-left: 110px;
 }
+
+.articles{
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 60px;
+  margin-top: 60px;
+}
