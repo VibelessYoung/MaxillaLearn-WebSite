@@ -181,3 +181,10 @@ a{
   padding-top: 60px;
   margin-top: 60px;
 }
+
+.footer{
+  height: 300px;
+  background-image: url(../images/background2.jpg);
+  background-size: cover;
+  background-position: center;
+}
